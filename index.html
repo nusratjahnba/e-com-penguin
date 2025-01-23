@@ -34,8 +34,8 @@
 
 <body class="bg-[#E5E5E5]">
     <header class="bg-penguin pt-12 pb-32">
-        <section class="container mx-auto flex items-center justify-around">
-            <div class="space-y-4">
+        <section class="container mx-auto md:flex items-center justify-around">
+            <div class="space-y-4 flex flex-col items-center md:items-start">
                 <h1 class="text-5xl uppercase font-bold"><span class="text-yellow-400">Be the penguin</span>
                     <br>of winter
                 </h1>
@@ -56,8 +56,8 @@
     <main>
         <!-- woman jacket start -->
         <section class="container mx-auto pb-24">
-            <h2 class="text-5xl font-bold">Woman Jacket</h2>
-            <div class="grid grid-cols-3">
+            <h2 class="text-5xl font-bold flex flex-col items-center md:items-start">Woman Jacket</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
                 <div class="p-4 shadow-lg">
                     <div class="p-5 bg-slate-100 rounded">
                         <img src="images/jacket-1.png" alt="">
@@ -112,8 +112,8 @@
         </section>
         <!-- mens  jacket-->
         <section class="container mx-auto pb-24">
-            <h2 class="text-5xl font-bold">Man Jacket</h2>
-            <div class="grid grid-cols-3">
+            <h2 class="text-5xl font-bold flex flex-col items-center md:items-start">Man Jacket</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
                 <div class="p-4 shadow-lg">
                     <div class="p-5 bg-slate-100 rounded">
                         <img src="images/jacket-4.png" alt="">
@@ -168,33 +168,37 @@
         </section>
         <!-- benifit start -->
         <section class="container mx-auto pb-24">
-            <div class="grid sm:grid-cols-2 gap-7">
-                <div class="rounded-lg flex bg-white p-6">
-                    <img class="w-20 h-20" src="images/house.png" alt="">
-                    <div>
-                        <h4 class="text-2xl">Find the Perfect Fit</h4>
-                        <p>Everybody is different, which is why we
-                            offer styles for every body.</p>
+            <div class="grid sm:grid-cols-2 gap-8">
+                <div class="space-y-6">
+                    <div class="rounded-lg flex bg-white p-6">
+                        <img class="w-20 h-20" src="images/house.png" alt="">
+                        <div>
+                            <h4 class="text-2xl">Find the Perfect Fit</h4>
+                            <p>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+
+                    <div class="rounded-lg flex bg-white p-6">
+                        <img class="w-20 h-20" src="images/box.png" alt="">
+                        <div>
+                            <h4 class="text-2xl">Free Exchanges</h4>
+                            <p>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg flex bg-white p-6">
+                        <img class="w-20 h-20" src="images/question.png" alt="">
+                        <div>
+                            <h4 class="text-2xl">Contact Our Seller</h4>
+                            <p>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="row-span-3"><img src="images/shopping.png" alt=""></div>
-                <div class="rounded-lg flex bg-white p-6">
-                    <img class="w-20 h-20" src="images/box.png" alt="">
-                    <div>
-                        <h4 class="text-2xl">Free Exchanges</h4>
-                        <p>Everybody is different, which is why we
-                            offer styles for every body.</p>
-                    </div>
+                <div>
+                    <div class="row-span-3"><img src="images/shopping.png" alt=""></div>
                 </div>
-                <div class="rounded-lg flex bg-white p-6">
-                    <img class="w-20 h-20" src="images/question.png" alt="">
-                    <div>
-                        <h4 class="text-2xl">Contact Our Seller</h4>
-                        <p>Everybody is different, which is why we
-                            offer styles for every body.</p>
-                    </div>
-                </div>
-            </div>
         </section>
     </main>
     <footer class="text-center pb-5">Copyright 2025 © Developed By Nusrat Jahan</footer>
